@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="jobs" />
+        <module name="api-gateway" />
+        <module name="locations" />
+        <module name="countries" />
+        <module name="departments" />
+        <module name="employees" />
+        <module name="service-registry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="17" />
+      <module name="config-server" target="17" />
+      <module name="countries" target="17" />
+      <module name="departments" target="17" />
+      <module name="dependents" target="17" />
+      <module name="employees" target="17" />
+      <module name="hrpeople" target="17" />
+      <module name="humanresourcepeople" target="17" />
+      <module name="jobs" target="17" />
+      <module name="locations" target="17" />
+      <module name="regions" target="17" />
+      <module name="service-registry" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="countries" options="-parameters" />
+      <module name="departments" options="-parameters" />
+      <module name="dependents" options="-parameters" />
+      <module name="employees" options="-parameters" />
+      <module name="hrpeople" options="-parameters" />
+      <module name="humanresourcepeople" options="-parameters" />
+      <module name="jobs" options="-parameters" />
+      <module name="locations" options="-parameters" />
+      <module name="regions" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
+    </option>
+  </component>
+</project>
